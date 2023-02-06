@@ -16,7 +16,7 @@
   </div>
   <div class="tab list" v-if="sTabShow=='list'"><pre>{{sList}}</pre></div>
 
-  <div class="tab table">
+  <div class="tab table" v-if="sTabShow=='table'">
   <table style="border-collapse:collapse;background:#FFFFFF;font-size:large;font-family:'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';text-align:center;min-width:365pt">
 <tbody><tr>
 <th colspan="17" style="background:#F8F8F8;font-size:small;font-family:sans-serif"></th></tr>
