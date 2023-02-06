@@ -1,0 +1,1 @@
+body,html{margin:0;padding:0}.grid{display:flex;flex-wrap:wrap;font-size:50px}.cell{padding:5px;margin:5px;border:1px solid #eee;height:60px;width:60px}.top-panel{display:flex;gap:10px;justify-content:center}.top-panel>*{padding:5px;font-size:16px}.list{overflow-y:scroll;height:calc(100vh - 30px)}
